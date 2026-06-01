@@ -1,0 +1,28 @@
+{
+  "name": "github-achievement-badges",
+  "version": "1.0.0",
+  "description": "A comprehensive collection of GitHub achievement badges",
+  "main": "README.md",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm run badges:generate",
+    "badges:generate": "node generate-badges.js"
+  },
+  "keywords": [
+    "github",
+    "badges",
+    "achievements",
+    "collection",
+    "demonstration"
+  ],
+  "author": "GitHub Achievement System",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marco0808364/badge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marco0808364/badge/issues"
+  },
+  "homepage": "https://github.com/marco0808364/badge#readme"
+}
